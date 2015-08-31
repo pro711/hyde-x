@@ -130,6 +130,37 @@ a.label:focus {
   cursor: pointer;
 }
 
+/* Carnelian */
+.theme-base-01 .label {
+  background-color: #b31b1b;
+}
+
+.theme-base-01 .pagination > li > a,
+.theme-base-01 .pagination > li > span {
+  color: #b31b1b;
+}
+
+.theme-base-01 .pagination > .active > a,
+.theme-base-01 .pagination > .active > span,
+.theme-base-01 .pagination > .active > a:hover,
+.theme-base-01 .pagination > .active > span:hover,
+.theme-base-01 .pagination > .active > a:focus,
+.theme-base-01 .pagination > .active > span:focus {
+  background-color: #b31b1b;
+  border-color: #b31b1b;
+}
+
+.theme-base-01 .pagination > .disabled > span,
+.theme-base-01 .pagination > .disabled > span:hover,
+.theme-base-01 .pagination > .disabled > span:focus,
+.theme-base-01 .pagination > .disabled > a,
+.theme-base-01 .pagination > .disabled > a:hover,
+.theme-base-01 .pagination > .disabled > a:focus {
+  color: #777;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
 /* Red */
 .theme-base-08 .label {
   background-color: #ac4142;
