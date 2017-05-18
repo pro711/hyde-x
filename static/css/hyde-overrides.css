@@ -35,3 +35,8 @@
     left:   1rem;
   }
 }
+
+/* Page footnote */
+.footnote {
+  font-size: 80%;
+}
